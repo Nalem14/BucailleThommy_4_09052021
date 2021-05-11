@@ -127,7 +127,7 @@ nav.navbar {
 #about-contact {
     position: relative;
     z-index: 1;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 #contact::before,
 #what-we-do::before,
@@ -151,7 +151,7 @@ nav.navbar {
     background-position: top;
     background-repeat: no-repeat;
     background-color: #364577;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: auto;
     padding: 40px 50px;
     margin: auto;
@@ -204,7 +204,7 @@ nav.navbar {
     background-position: top;
     background-repeat: no-repeat;
     background-color: #364577;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: auto;
     margin: auto;
     padding: 40px 0;
@@ -271,7 +271,7 @@ nav.navbar {
 /* READY TO WORK */
 #ready-to-work {
     background-image: url(../images/la-chouette-agence-banniere.jpg);
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: #364577;
     background-attachment: scroll;
