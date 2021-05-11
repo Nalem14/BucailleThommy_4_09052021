@@ -375,6 +375,12 @@ footer > div ul li a:hover {
 
 /* Scroll to top */
 .scrollToTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgba(255, 255, 255, .7);
     width: 40px;
     height: 40px;
     position: fixed;
@@ -384,8 +390,8 @@ footer > div ul li a:hover {
     z-index: 500;
     transition: all .3s ease-in-out;
 }
-.scrollToTop span {
-    margin-top: 6px;
+.scrollToTop:hover {
+    color: #FFF;
 }
 .showScrollTop {
     font-size: 14px;
