@@ -155,12 +155,11 @@ nav.navbar {
     margin: auto;
 }
 #contact > div {
-    width: 100%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
 }
 #contact h1 {
     color: #F3976C;
