@@ -17,12 +17,14 @@ nav.navbar {
 
 /* Paper texture */
 #contact,
-#what-we-do {
+#what-we-do,
+#ready-to-work {
     position: relative;
     z-index: 1;
 }
 #contact::before,
-#what-we-do::before{
+#what-we-do::before,
+#ready-to-work::before {
     content: "";
     position: absolute;
     background: url("../images/texture-paper.png");
@@ -179,6 +181,31 @@ a.btn:hover {
     height: 280px;
     object-fit: cover;
 }
+
+
+#ready-to-work {
+    background-image: url(../images/la-chouette-agence-banniere.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #364577;
+    background-attachment: scroll;
+    background-size: auto;
+}
+#ready-to-work > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+#ready-to-work > div h2 {
+    color: #c27956;
+    font-size: 1.6em;
+}
+
+
+
 
 
 
