@@ -71,14 +71,22 @@ a.btn:hover {
 }
 #about > div article {
     display: flex;
+    flex-basis: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 #about > div article h2 {
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.15em;
     font-weight: 700;
+}
+#about > div article span {
+    color: #364577;
+    border-color: #364577;
+    margin-top: 24px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    font-size: 4em;
 }
 
 
