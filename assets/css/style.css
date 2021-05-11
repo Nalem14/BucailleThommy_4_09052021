@@ -217,6 +217,7 @@ nav.navbar {
     text-align: center;
     padding: 40px;
     position: relative;
+    max-width: 600px;
 }
 #what-we-do > div::after {
     content: "";
@@ -231,9 +232,12 @@ nav.navbar {
 }
 #what-we-do > div h2 {
     color: #F3976C;
+    font-size: 1.5em;
 }
 #what-we-do > div p {
     color: #fff;
+    font-size: 1em;
+    margin-top: 10px;
 }
 #what-we-do > div a {
     color: #fff;
@@ -537,6 +541,11 @@ a[data-lightbox]:hover img {
     #portfolio > div article {
         flex-basis: 45%;
         margin: 20px 10px;
+    }
+
+    /* What we do */
+    #what-we-do > div {
+        margin: 40px auto;
     }
 
     /* FOOTER */
