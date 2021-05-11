@@ -205,6 +205,48 @@ a.btn:hover {
 }
 
 
+footer {
+    background-color: #F3976C;
+    color: #fff;
+}
+footer > div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+footer > div p {
+    text-align: center;
+}
+footer > div div h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family: "helvetica";
+    color: rgba(255, 255, 255, .7);
+}
+footer > div > div ul {
+    display: flex;
+    flex-direction: column;
+}
+footer > div > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer > div > ul li {
+    list-style-type: none;
+}
+footer > div ul li a {
+    color: rgba(255, 255, 255, .6);
+}
+footer > div > div ul li a {
+    color: #575757;
+}
+footer > div ul li a:hover {
+    color: #fff;
+}
+
+
 
 
 
