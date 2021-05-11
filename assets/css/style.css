@@ -62,8 +62,24 @@ a.btn:hover {
     color: #FFF;
 }
 
-
-
+#about > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#about > div article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about > div article h2 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 700;
+}
 
 
 
