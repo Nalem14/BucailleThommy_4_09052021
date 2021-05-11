@@ -27,7 +27,7 @@ a {
 }
 
 /* Button */
-a.btn {
+a.btn, button.btn {
     background-color: #F3976C;
     margin-top: 22px;
     text-transform: uppercase;
@@ -123,14 +123,16 @@ nav.navbar {
 /* Paper texture */
 #contact,
 #what-we-do,
-#ready-to-work {
+#ready-to-work,
+#about-contact {
     position: relative;
     z-index: 1;
     background-attachment: scroll;
 }
 #contact::before,
 #what-we-do::before,
-#ready-to-work::before {
+#ready-to-work::before,
+#about-contact::before {
     content: "";
     position: absolute;
     background: url("../images/texture-paper.png");
@@ -332,6 +334,30 @@ footer > div ul li a:hover {
     color: #fff;
 }
 
+/* About - Page contact */
+#about-contact {
+    background-color: #F3976C;
+}
+#about-contact > div {
+    color: rgba(255, 255, 255, .7);
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact form */
+#contact-form {
+    margin-top: 40px;
+}
+#contact-form .btn {
+    width: 100%;
+    border-radius: 10px;
+}
+#contact-form p {
+    margin-top: 20px;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -347,6 +373,7 @@ footer > div ul li a:hover {
     box-shadow: none;
 }
 
+/* Scroll to top */
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -357,11 +384,9 @@ footer > div ul li a:hover {
     z-index: 500;
     transition: all .3s ease-in-out;
 }
-
 .scrollToTop span {
     margin-top: 6px;
 }
-
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
