@@ -127,7 +127,6 @@ nav.navbar {
 #about-contact {
     position: relative;
     z-index: 1;
-    background-attachment: fixed;
 }
 #contact::before,
 #what-we-do::before,
@@ -584,12 +583,6 @@ a[data-lightbox]:hover img {
     }
 }
 
-@media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
-}
-
 @media (max-width: 767px) {
     .navbar .nav {
         padding-top: 0;
@@ -599,12 +592,6 @@ a[data-lightbox]:hover img {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
-    }
-    .site-navigation {
-        position: inherit;
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
     }
     .nav > li {
         margin-top: 0;
