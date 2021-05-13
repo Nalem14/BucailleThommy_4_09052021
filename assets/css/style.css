@@ -291,6 +291,10 @@ nav.navbar {
 #ready-to-work > div h2 {
     color: #c27956;
     font-size: 1.6em;
+    margin-top: 65px;
+}
+#ready-to-work > div a {
+    margin-bottom: 65px;
 }
 
 /* FOOTER */
