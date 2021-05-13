@@ -523,7 +523,10 @@ a[data-lightbox]:hover img {
 }
 
 @media screen AND (min-width: 768px) {
-    
+    .navbar {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 
     /* ABOUT */
     #about {
