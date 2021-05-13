@@ -182,6 +182,36 @@ nav.navbar {
     justify-content: center;
     align-items: center;
 }
+#about > div {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#about > div p {
+    font-size: 1.5em;
+    color: #8a8a8a;
+    font-weight: 700;
+    max-width: 600px;
+}
+#about blockquote {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border: none;
+    text-align: center;
+}
+#about blockquote p {
+    max-width: 500px;
+    font-style: italic;
+    color: #7e7e7e;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+#about blockquote cite {
+    font-size: .9em;
+    color: #747474;
+}
 #about article {
     display: flex;
     flex-basis: 100%;
@@ -266,7 +296,21 @@ nav.navbar {
 #portfolio > div article {
     text-align: center;
 }
-#portfolio > div article h2 {
+#portfolio > div > div {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+#portfolio h2 {
+    max-width: 500px;
+    text-align: center;
+    color: #707070;
+    font-size: 1.8em;
+}
+#portfolio > div article h3 {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 1.2em;
