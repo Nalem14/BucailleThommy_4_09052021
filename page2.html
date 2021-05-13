@@ -115,25 +115,26 @@
             fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
           >
             <div class="form-group">
-              <label> Nom </label>
-              <input id="name" class="form-control" required />
+              <label> <b>N</b>om </label>
+              <input id="name" type="text" class="form-control" required accesskey="n"/>
             </div>
             <div class="form-group">
-              <label> Adresse email </label>
-              <input id="email" class="form-control" type="email" required />
+              <label> Adresse <b>e</b>mail </label>
+              <input id="email" class="form-control" type="email" required accesskey="e"/>
             </div>
             <div class="form-group">
-              <label> Comment nous avez-vous connu ? </label>
+              <label> <b>C</b>omment nous avez-vous connu ? </label>
               <input
                 class="form-control"
-                type="email"
+                type="text"
                 required
+                accesskey="c"
                 id="input_504"
               />
             </div>
             <div class="form-group">
               <label>
-                Brief de votre projet (Ajoutez autant de détails que
+                <b>B</b>rief de votre projet (Ajoutez autant de détails que
                 nécessaire)<br /> </label
               ><textarea
                 id="message"
@@ -141,6 +142,7 @@
                 rows="4"
                 cols="50"
                 required
+                accesskey="b"
               ></textarea>
             </div>
             <button class="btn" type="submit">Envoyer</button>
