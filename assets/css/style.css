@@ -374,8 +374,14 @@ footer > div {
 footer > div p {
     text-align: center;
 }
+footer > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 footer > div div h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: normal;
     font-family: "helvetica";
     color: rgba(255, 255, 255, .7);
@@ -633,6 +639,15 @@ a[data-lightbox]:hover img {
         display: flex;
         justify-content: space-between;
     }
+    footer > div > div h2 {
+        flex-basis: 10%;
+        margin: 0; padding: 0;
+    }
+    footer > div > div {
+        flex-basis: 100%;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
     footer > div > p {
         flex-basis: 100%;
     }
@@ -640,17 +655,24 @@ a[data-lightbox]:hover img {
         flex-basis: 100%;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+    }
+    footer > div > div ul {
+        flex-basis: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin: 0; padding: 0;
+        margin-left: 20px;
     }
     footer > div > ul > li {
         width: 120px;
     }
+    footer > div > div > ul > li {
+        flex-basis: 25%;
+    }
     footer > div {
         flex-direction: row;
         flex-wrap: wrap;
-        flex-basis: 30%;
     }
 }
 
