@@ -199,12 +199,14 @@ nav.navbar {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 #about > div p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #8a8a8a;
     font-weight: 700;
-    max-width: 600px;
+    max-width: 800px;
+    text-align: center;
 }
 #about blockquote {
     margin-top: 50px;
