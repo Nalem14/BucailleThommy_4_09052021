@@ -107,6 +107,9 @@ nav.navbar {
 .nav > li a {
     color: #575757;
 }
+.nav > li a.active {
+    font-weight: 700;
+}
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
