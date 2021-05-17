@@ -49,6 +49,10 @@ a.btn:hover {
     background-color: #000;
     color: #fff;
 }
+a.btn:focus {
+    color: #FFF;
+    border-color: #FFF;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -57,6 +61,9 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+a:focus {
+    color: #FFF;
 }
 
 /* NAV */
@@ -416,6 +423,10 @@ footer > div ul li a:hover {
 #contact-form .btn:hover {
     background-color: #000;
     color: #fff;
+}
+#contact-form .btn:focus {
+    color: #FFF;
+    border-color: #FFF;
 }
 #contact-form p {
     margin-top: 20px;
