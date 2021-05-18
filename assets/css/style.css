@@ -28,7 +28,7 @@ a {
 
 /* Button */
 a.btn, button.btn {
-    background-color: #2a2a2a;
+    background-color: #F3976C;
     margin-top: 22px;
     text-transform: uppercase;
     height: 48px;
@@ -41,14 +41,14 @@ a.btn, button.btn {
     border-radius: 40px;
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25) inset O 1px 00 rgba(255, 255, 255, .15);
-    color: #e9e9e9;
+    color: #000;
     font-size: 1.2em;
     padding-left: 15px;
     padding-right: 15px;
 }
 a.btn:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #c27956;
+    color: #000;
 }
 a.btn:focus {
     color: #FFF;
@@ -179,7 +179,7 @@ nav.navbar {
     align-items: center;
 }
 #contact h1 {
-    color: #fff;
+    color: #F3976C;
     font-size: 2.3em;
     font-weight: 400;
     font-family: "helvetica";
@@ -278,7 +278,7 @@ nav.navbar {
     background-color: rgba(37, 37, 37, 0.7);
 }
 #what-we-do > div h2 {
-    color: #fff;
+    color: #F3976C;
     font-size: 1.5em;
 }
 #what-we-do > div p {
@@ -353,7 +353,7 @@ nav.navbar {
     padding: 40px 0;
 }
 #ready-to-work > div h2 {
-    color: #fff;
+    color: #F3976C;
     font-size: 1.6em;
     margin-top: 65px;
 }
@@ -363,8 +363,8 @@ nav.navbar {
 
 /* FOOTER */
 footer {
-    background-color: #2a2a2a;
-    color: #fff;
+    background-color: #F3976C;
+    color: #000;
 }
 footer > div {
     display: flex;
@@ -384,7 +384,7 @@ footer > div div h2 {
     font-size: 1.3em;
     font-weight: normal;
     font-family: "helvetica";
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, .7);
 }
 footer > div > div ul {
     display: flex;
@@ -400,23 +400,23 @@ footer > div > ul li {
     list-style-type: none;
 }
 footer > div ul li a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, .6);
     font-size: 2.5em;
 }
 footer > div > div ul li a {
-    color: #fff;
+    color: #000;
     font-size: 1em;
 }
 footer > div ul li a:hover {
-    color: #fff;
+    color: #000;
 }
 
 /* About - Page contact */
 #about-contact {
-    background-color: #2a2a2a;
+    background-color: #F3976C;
 }
 #about-contact > div {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, .7);
     padding: 40px 0;
     display: flex;
     flex-direction: column;
@@ -433,12 +433,12 @@ footer > div ul li a:hover {
     border-radius: 10px;
 }
 #contact-form .btn:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #c27956;
+    color: #000;
 }
 #contact-form .btn:focus {
-    color: #FFF;
-    border-color: #FFF;
+    color: #000;
+    border-color: #000;
 }
 #contact-form p {
     margin-top: 20px;
