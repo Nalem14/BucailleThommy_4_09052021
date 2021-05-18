@@ -77,10 +77,10 @@
         <div class="collapse navbar-collapse navbar-main">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="index.html">Accueil</a>
+              <a href="index.html" accesskey="1">Accueil</a>
             </li>
             <li>
-              <a href="contact.html" class="active">Contact</a>
+              <a href="contact.html" class="active" accesskey="2">Contact</a>
             </li>
           </ul>
         </div>
@@ -107,26 +107,25 @@
             fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
           >
             <div class="form-group">
-              <label for="name"> <b>N</b>om </label>
-              <input id="name" type="text" class="form-control" required accesskey="n"/>
+              <label for="name">Nom</label>
+              <input id="name" type="text" class="form-control" required />
             </div>
             <div class="form-group">
-              <label for="email"> Adresse <b>e</b>mail </label>
-              <input id="email" class="form-control" type="email" required accesskey="e"/>
+              <label for="email">Adresse email </label>
+              <input id="email" class="form-control" type="email" required />
             </div>
             <div class="form-group">
-              <label for="input_504"> <b>C</b>omment nous avez-vous connu ? </label>
+              <label for="input_504">Comment nous avez-vous connu ? </label>
               <input
                 class="form-control"
                 type="text"
                 required
-                accesskey="c"
                 id="input_504"
               />
             </div>
             <div class="form-group">
               <label for="message">
-                <b>B</b>rief de votre projet (Ajoutez autant de détails que
+                Brief de votre projet (Ajoutez autant de détails que
                 nécessaire)<br /> </label
               ><textarea
                 id="message"
@@ -134,7 +133,6 @@
                 rows="4"
                 cols="50"
                 required
-                accesskey="b"
               ></textarea>
             </div>
             <button class="btn" type="submit">Envoyer</button>
