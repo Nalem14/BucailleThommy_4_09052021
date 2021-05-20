@@ -629,6 +629,8 @@ a[data-lightbox]:hover img {
     footer > div {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     footer > div > div h2 {
         flex-basis: 10%;
@@ -661,10 +663,6 @@ a[data-lightbox]:hover img {
     footer > div > div > ul > li {
         flex-basis: 25%;
     }
-    footer > div {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -681,7 +679,6 @@ a[data-lightbox]:hover img {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
     }
     .navbar.row {
         margin-left: 0;
@@ -700,7 +697,7 @@ a[data-lightbox]:hover img {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
