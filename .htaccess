@@ -1,8 +1,3 @@
-# Redirect non-www to www
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^nalem14.github\.io [NC]
-RewriteRule ^(.*)$ http://www.nalem14.github.io/$1 [L,R=301]
-
 <IfModule mod_deflate.c>
 
 # Komprimiere HTML, CSS, JavaScript, Text, XML und fonts
