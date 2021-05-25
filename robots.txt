@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nalem14.github.io/BucailleThommy_4_09052021/sitemap.xml
+Sitemap: https://p4.bucaille-thommy.fr/sitemap.xml
