@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta
       name="description"
-      content="Contacter La chouette agence basé à Lyon"
+      content="Information sur les raccourcis d'accessibilité du site"
     />
     <meta
       name="viewport"
@@ -19,11 +19,11 @@
     <link rel="canonical" href="https://p4.bucaille-thommy.fr/index.html" />
     <link rel="manifest" href="./manifest.json" />
 
-    <meta property="og:title" content="Contact - La chouette agence" />
+    <meta property="og:title" content="Accessibilité - La chouette agence" />
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content="https://p4.bucaille-thommy.fr/contact.html"
+      content="https://p4.bucaille-thommy.fr/accessibilite.html"
     />
     <meta
       property="og:image"
@@ -32,10 +32,10 @@
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@LaChouetteAgence" />
-    <meta name="twitter:title" content="Contact - La chouette agence" />
+    <meta name="twitter:title" content="Accessibilité - La chouette agence" />
     <meta
       name="twitter:description"
-      content="Contacter La chouette agence basé à Lyon"
+      content="Information sur les raccourcis d'accessibilité du site"
     />
     <meta
       name="twitter:image"
@@ -63,7 +63,7 @@
       href="./assets/dist/css/et-line.min.css"
     />
 
-    <title>Contact - La chouette agence</title>
+    <title>Accessibilité - La chouette agence</title>
   </head>
   <body>
     <header>
@@ -93,10 +93,10 @@
               <a href="index.html" accesskey="1">Accueil</a>
             </li>
             <li>
-              <a href="contact.html" class="active" accesskey="2">Contact</a>
+              <a href="contact.html" accesskey="2">Contact</a>
             </li>
             <li>
-              <a href="accessibilite.html" accesskey="0"
+              <a href="accessibilite.html" class="active" accesskey="0"
                 >Accessibilité</a
               >
             </li>
@@ -106,55 +106,37 @@
     </header>
     <!-- Principal conteneur -->
     <main>
-      <section id="about-contact">
+      <section id="about-accesskey">
         <div class="container">
-          <h1>Parlons web design !</h1>
+          <h1>Nos raccourcis d'accessibilité</h1>
           <p>
-            Nous sommes ravis que vous souhaitiez collaborer avec notre
-            agence.<br />
-            Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+            Nous avons mis en place des solutions afin d'accéder aux pages du
+            site facilement grâce à des raccourcis d'accessibilité
           </p>
         </div>
       </section>
 
-      <div class="container" id="contact-form">
-        <form
-          id="form_1"
-          novalidate
-          success-msg="Your message has been sent."
-          fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-        >
-          <div class="form-group">
-            <label for="name">Nom</label>
-            <input id="name" type="text" class="form-control" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Adresse email </label>
-            <input id="email" class="form-control" type="email" required />
-          </div>
-          <div class="form-group">
-            <label for="input_504">Comment nous avez-vous connu ? </label>
-            <input class="form-control" type="text" required id="input_504" />
-          </div>
-          <div class="form-group">
-            <label for="message">
-              Brief de votre projet (Ajoutez autant de détails que
-              nécessaire)<br /> </label
-            ><textarea
-              id="message"
-              class="form-control"
-              rows="4"
-              cols="50"
-              required
-            ></textarea>
-          </div>
-          <button class="btn" type="submit">Envoyer</button>
-        </form>
-        <p>
-          contact@lachouetteagence.com<br />2 place Sathonay 69001 Lyon<br />Ouvert
-          de 9h à 18h, du lundi au vendredi<br />
-        </p>
-      </div>
+      <section id="shortcut-accesskey" class="container">
+          <h2>Accédez rapidement aux contenu grâce aux raccourcis</h2>
+
+          <article>
+              <h3>Page d'accueil</h3>
+              <span>Raccourci</span>
+              <span>1</span>
+          </article>
+
+          <article>
+            <h3>Page de contact</h3>
+            <span>Raccourci</span>
+            <span>2</span>
+        </article>
+
+        <article>
+            <h3>Page d'accessibilité</h3>
+            <span>Raccourci</span>
+            <span>0</span>
+        </article>
+      </section>
 
       <!-- ScrollToTop Button -->
       <a class="scrollToTop" onclick="scrollToTarget('1')"
@@ -206,8 +188,8 @@
           {
             "@type": "ListItem",
             "position": 1,
-            "name": "Contact",
-            "item": "https://p4.bucaille-thommy.fr/contact.html"
+            "name": "Accessibilite",
+            "item": "https://p4.bucaille-thommy.fr/accessibilite.html"
           }
         ]
       }

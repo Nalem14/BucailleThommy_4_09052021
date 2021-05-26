@@ -8,18 +8,23 @@
 
 
 <url>
-  <loc>https://nalem14.github.io/BucailleThommy_4_09052021/</loc>
+  <loc>https://p4.bucaille-thommy.fr/</loc>
   <lastmod>2021-05-18T17:44:53+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://nalem14.github.io/BucailleThommy_4_09052021/index.html</loc>
+  <loc>https://p4.bucaille-thommy.fr/index.html</loc>
   <lastmod>2021-05-18T17:44:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://nalem14.github.io/BucailleThommy_4_09052021/contact.html</loc>
+  <loc>https://p4.bucaille-thommy.fr/contact.html</loc>
   <lastmod>2021-05-18T17:44:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://p4.bucaille-thommy.fr/accessibilite.html</loc>
+  <lastmod>2021-05-26T13:26:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
